@@ -1,0 +1,593 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 15663 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity Project/MyAr1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62382
+Successfully changed project path to: D:/Unity Project/MyAr1
+D:/Unity Project/MyAr1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 102.26 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 3.98 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Project/MyAr1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7831 MB
+    Driver:   30.0.15021.11005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010210 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.24 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (652ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1681ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (886ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (725ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 3398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (124.4 KB). Loaded Objects now: 4135.
+Memory consumption went from 121.4 MB to 121.3 MB.
+Total: 3.595800 ms (FindLiveObjects: 0.427200 ms CreateObjectMapping: 0.294900 ms MarkObjects: 2.730200 ms  DeleteObjects: 0.142000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005338 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1721ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1481ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (912ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (735ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.37 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.04 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (90.1 KB). Loaded Objects now: 4138.
+Memory consumption went from 119.8 MB to 119.7 MB.
+Total: 4.401700 ms (FindLiveObjects: 0.643500 ms CreateObjectMapping: 0.151900 ms MarkObjects: 3.438000 ms  DeleteObjects: 0.167300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006102 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1478ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (827ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (688ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.89 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (90.2 KB). Loaded Objects now: 4141.
+Memory consumption went from 119.8 MB to 119.7 MB.
+Total: 4.860000 ms (FindLiveObjects: 0.761100 ms CreateObjectMapping: 0.206400 ms MarkObjects: 3.757700 ms  DeleteObjects: 0.133200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005559 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Project\MyAr1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.922 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1923ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (1527ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (925ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.25 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (90.2 KB). Loaded Objects now: 4144.
+Memory consumption went from 119.8 MB to 119.7 MB.
+Total: 6.055300 ms (FindLiveObjects: 0.424600 ms CreateObjectMapping: 0.170900 ms MarkObjects: 5.255700 ms  DeleteObjects: 0.202500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.66 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (87.4 KB). Loaded Objects now: 4144.
+Memory consumption went from 53.1 MB to 53.0 MB.
+Total: 3.353600 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.092600 ms MarkObjects: 2.768400 ms  DeleteObjects: 0.141000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66632.266144 seconds.
+  path: Assets/Ferarri Italia.fbx
+  artifactKey: Guid(b5e1861a6c7f0e84daf4befb3c0dc1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ferarri Italia.fbx using Guid(b5e1861a6c7f0e84daf4befb3c0dc1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6e637ea0ae5abb53b91c3f33c0c27c') in 0.955764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.750193 seconds.
+  path: Assets/ferrari-458-italia
+  artifactKey: Guid(df18e7550ed731844bec4b2c2c5f8949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ferrari-458-italia using Guid(df18e7550ed731844bec4b2c2c5f8949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd925e2be4beb81a5cbedf84bdca2296e') in 0.006626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005241 seconds.
+  path: Assets/ferrari-458-italia/source
+  artifactKey: Guid(c9edfa0aad519c3499513a01b9f3bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ferrari-458-italia/source using Guid(c9edfa0aad519c3499513a01b9f3bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c7f4587ed924877324444ab417a2da') in 0.006881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027583 seconds.
+  path: Assets/ferrari-458-italia/source/Ferarri Italia.fbx
+  artifactKey: Guid(a412264a4653e5c489d5c812f5462f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ferrari-458-italia/source/Ferarri Italia.fbx using Guid(a412264a4653e5c489d5c812f5462f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d61e328edcab0f5631a8b883a6d68f1') in 0.711451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.179511 seconds.
+  path: Assets/ferrari-458-italia/textures
+  artifactKey: Guid(8b0c38c989c075445b71b429375b8a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ferrari-458-italia/textures using Guid(8b0c38c989c075445b71b429375b8a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dfbca518dcd44060ad8d43a33a244d') in 0.006903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032771 seconds.
+  path: Assets/ferrari-458-italia/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(1029c36071fa9d34fb50cdda2922df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ferrari-458-italia/textures/internal_ground_ao_texture.jpeg using Guid(1029c36071fa9d34fb50cdda2922df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ea7b910ac250c0580af66771a54ef0') in 0.322261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.085957 seconds.
+  path: Assets/2020-ferrari-sf90-stradale
+  artifactKey: Guid(2184ca93284392d4eae854d650e45165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale using Guid(2184ca93284392d4eae854d650e45165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01849cbcf00cb26c12a9a8b14d6d2fe9') in 0.007354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.843985 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/source
+  artifactKey: Guid(5320cafaa6707514bb0d5dbff8c02c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/source using Guid(5320cafaa6707514bb0d5dbff8c02c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3863f10ef4e55de834020a7aa2e771b6') in 0.002202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050334 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/source/Ferrari sf90 stradale.fbx
+  artifactKey: Guid(979f95ccacf887d4c838cf1e724fb007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/source/Ferrari sf90 stradale.fbx using Guid(979f95ccacf887d4c838cf1e724fb007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a28181d842f09a5dd1da0b9d710ead3') in 0.996103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.432943 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/textures
+  artifactKey: Guid(ff2a423cfc2aa8d4a98b4b29d65c66fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/textures using Guid(ff2a423cfc2aa8d4a98b4b29d65c66fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6256192158ab2769f080917e5c3a4682') in 0.002064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023658 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/textures/Road.png
+  artifactKey: Guid(1ec16a635378c504ab8ef190dc3f3ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/textures/Road.png using Guid(1ec16a635378c504ab8ef190dc3f3ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef250fd6440edd5d1314bf4c1d6d04a') in 0.032025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/textures/SF90_interior.png
+  artifactKey: Guid(fb17582cbce9dff479780b743de8a324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/textures/SF90_interior.png using Guid(fb17582cbce9dff479780b743de8a324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6140015738c7cba875606a3b7a60698') in 0.024402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/textures/SF90_exterior_A.png
+  artifactKey: Guid(50ab19bff7c48104cb1c5044ea5060fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/textures/SF90_exterior_A.png using Guid(50ab19bff7c48104cb1c5044ea5060fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8b5382c702fdf0e5c6963176448277') in 0.023089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/textures/SF90_exterior.png
+  artifactKey: Guid(e8e826942b834a741a58630428c07f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/textures/SF90_exterior.png using Guid(e8e826942b834a741a58630428c07f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ac205d5d0cd2de8088ceefab14fb9e') in 0.020130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/textures/SF90_interior_A.png
+  artifactKey: Guid(9dfae499e8c5ffc4b88641b9f6c03c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/textures/SF90_interior_A.png using Guid(9dfae499e8c5ffc4b88641b9f6c03c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1a2e59a270ef5c78f6022c181f67d2') in 0.017639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2020-ferrari-sf90-stradale/textures/SF90_exterior_N.png
+  artifactKey: Guid(9281c21f92379dc44abdfb5184f4c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2020-ferrari-sf90-stradale/textures/SF90_exterior_N.png using Guid(9281c21f92379dc44abdfb5184f4c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e8a125c1f2d76e43ea5d58c01b5902') in 0.017793 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
