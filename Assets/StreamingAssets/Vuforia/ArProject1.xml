@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="AlocasiaZebrinaPlant" size="500.000000 333.333344" />
+    <ImageTarget name="AloeVera" size="500.000000 281.250000" />
+    <ImageTarget name="SnakePlant" size="500.000000 333.333344" />
+    <ImageTarget name="SpiderPlant" size="500.000000 375.000000" />
+    <ImageTarget name="PeaceLily" size="500.000000 649.822693" />
+  </Tracking>
+</QCARConfig>
